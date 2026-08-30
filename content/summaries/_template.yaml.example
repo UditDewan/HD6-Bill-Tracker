@@ -1,0 +1,11 @@
+# Copy to content/summaries/<billnumber>.yaml once a second person has checked
+# the summary against the LSC analysis. Do not fill reviewed_by with your own
+# name if you wrote the summary — the reviewer is a different person.
+bill: HB32
+summary: >
+  Two to four sentences describing what the bill would do, in plain language.
+  Derived from the LSC analysis only.
+source: "LSC Bill Analysis, H. B. No. 32, 136th GA"
+source_url: "https://www.legislature.ohio.gov/legislation/136/hb32"
+reviewed_by: ""
+reviewed_on:

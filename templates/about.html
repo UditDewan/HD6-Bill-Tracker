@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block title %}About{% endblock %}
+{% block main %}
+<h1>About this site</h1>
+
+<h2>What this is</h2>
+<p>A list of every bill and resolution that Ohio State Representative Christine
+Cockley (House District 6) sponsors or cosponsors in the 136th General
+Assembly, with the current status of each and, where one has been reviewed, a
+plain-language summary.</p>
+
+<h2>Who built it</h2>
+<p>Volunteer students at The Ohio State University, working with
+Rep. Cockley's office. <strong>This is not an official website of the State of
+Ohio or of the Ohio House of Representatives.</strong> For official
+information, see
+<a href="https://ohiohouse.gov">ohiohouse.gov</a>.</p>
+
+<h2>Where the data comes from</h2>
+<p>Which bills she sponsors or cosponsors, and the current version of each,
+come from her official page on
+<a href="https://ohiohouse.gov/members/christine-cockley/legislation">ohiohouse.gov</a>.
+Committee action and dates come from the Ohio Legislature's public legislative
+information service. Bill titles and status labels are reproduced verbatim from
+those sources; this site does not rewrite them. Every bill links to its
+official page at
+<a href="https://www.legislature.ohio.gov">legislature.ohio.gov</a>, which is
+authoritative if anything here disagrees with it.</p>
+<p>The site is rebuilt from those sources every morning. If a bill's status is
+wrong here, it is almost always because this site has not rebuilt since the
+Legislature updated it.</p>
+
+<h2>How the summaries are written</h2>
+<p>Each plain-language summary is drafted from the Ohio Legislative Service
+Commission's neutral analysis of the bill, then checked by a second person
+against that analysis before it is published. Every published summary names its
+reviewer and the date of review. A summary that has not been through that
+review is not published at all — those bills show their official title only.</p>
+<p>Summaries describe what a bill would do. They do not say whether a bill is
+good or bad, and they do not predict whether it will pass.</p>
+
+<h2>How often it updates</h2>
+<p>Automatically, once every morning. This page was last built on {{ built }}.</p>
+
+<h2>How to report an error</h2>
+<p>Email Rep. Cockley's office at
+<a href="mailto:rep06@ohiohouse.gov">rep06@ohiohouse.gov</a> with the bill
+number and what is wrong. Corrections to a summary or a status can be made
+without waiting for the next scheduled update.</p>
+{% endblock %}

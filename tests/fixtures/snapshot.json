@@ -1,0 +1,59 @@
+[
+  {
+    "number": "HB247",
+    "title": "Revise dog law, including dangerous and vicious dogs",
+    "role": "cosponsor",
+    "status": "As Enrolled",
+    "status_date": "2025-04-30",
+    "committee": "Judiciary",
+    "chamber": "house",
+    "last_action": "Refer to Committee (House, General Government Committee)",
+    "last_action_date": "2025-04-30",
+    "url": "https://www.legislature.ohio.gov/legislation/136/hb247",
+    "topics": [
+      "Agriculture",
+      "Crimes, Corrections, and Law Enforcement",
+      "State and Local Government"
+    ],
+    "history": [
+      {
+        "date": "2025-04-29",
+        "chamber": "house",
+        "action": "Introduced (House)"
+      },
+      {
+        "date": "2025-04-30",
+        "chamber": "house",
+        "action": "Refer to Committee (House, General Government Committee)"
+      }
+    ]
+  },
+  {
+    "number": "HB663",
+    "title": "Create the Artificial Intelligence Study Commission",
+    "role": "primary",
+    "status": "As Introduced",
+    "status_date": "2026-02-04",
+    "committee": "Natural Resources",
+    "chamber": "house",
+    "last_action": "Refer to Committee (House, Natural Resources Committee)",
+    "last_action_date": "2026-02-04",
+    "url": "https://www.legislature.ohio.gov/legislation/136/hb663",
+    "topics": [
+      "Commerce",
+      "State and Local Government"
+    ],
+    "history": [
+      {
+        "date": "2026-01-29",
+        "chamber": "house",
+        "action": "Introduced (House)"
+      },
+      {
+        "date": "2026-02-04",
+        "chamber": "house",
+        "action": "Refer to Committee (House, Natural Resources Committee)"
+      }
+    ]
+  }
+]

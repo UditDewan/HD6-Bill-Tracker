@@ -1,0 +1,72 @@
+name: build
+
+on:
+  # 11:00 UTC — 6am Eastern in winter, 7am in summer. Move to 10:00 if the
+  # office wants 6am year-round during daylight saving.
+  schedule: [{cron: "0 11 * * *"}]
+  workflow_dispatch:   # the office's "rebuild now" button
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - run: pip install requests jinja2 pyyaml pytest
+
+      # Includes the review gate: an unreviewed summary fails here, before
+      # anything is rendered or deployed.
+      - name: Tests
+        run: python -m pytest -q
+
+      # No API key: ohiohouse.gov and the Ohio LIS API are both public.
+      - name: Fetch bills
+        run: python -m src.tracker.fetch
+
+      - name: Commit snapshot if it changed
+        run: |
+          git config user.name "hd6-bill-tracker"
+          git config user.email "actions@github.com"
+          git add data/snapshot.json
+          git diff --cached --quiet || git commit -m "snapshot $(date -u +%F)"
+          git push || true
+
+      - name: Render
+        run: python -m src.tracker.render
+
+      - name: Accessibility gate
+        run: |
+          npm install -g pa11y-ci
+          # concurrency 2 on purpose: Chrome gets flaky above that and a
+          # build gate that fails at random is a build gate someone disables.
+          python -c "import json,pathlib; print(json.dumps({'defaults':{'concurrency':2,'timeout':60000,'chromeLaunchConfig':{'args':['--no-sandbox']}},'urls':sorted(p.resolve().as_uri() for p in pathlib.Path('site').rglob('*.html'))}))" > pa11yci.json
+          pa11y-ci --config pa11yci.json --threshold 0
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4

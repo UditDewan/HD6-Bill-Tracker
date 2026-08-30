@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% block title %}Bills{% endblock %}
+{% block main %}
+<h1>Bills sponsored or cosponsored by Rep. Christine Cockley</h1>
+<p>Ohio House District 6, 136th General Assembly. {{ bills|length }} bills and
+resolutions &mdash; {{ primary_count }} she is the primary sponsor of and
+{{ bills|length - primary_count }} she has cosponsored &mdash; grouped by
+topic. A bill appears under every topic that applies to it.</p>
+<p>Plain-language summaries are written by volunteers using the Legislative
+Service Commission's analysis of each bill, and are published only after a
+second person checks them against that analysis. Bills without a reviewed
+summary show their official title instead.</p>
+
+<div id="filter" hidden>
+  <label for="q">Filter bills by number, title, topic, or role</label>
+  <input type="search" id="q" autocomplete="off">
+  <p id="filter-count" role="status"></p>
+</div>
+
+{% for topic, group in groups.items() %}
+<section>
+  <h2>{{ topic }} <span class="count">({{ group|length }})</span></h2>
+  <ul class="bills">
+  {% for b in group %}
+    <li data-search="{{ b.display }} {{ b.title }} {{ b.topics|join(' ') }} {{ 'primary sponsor' if b.role == 'primary' else 'cosponsor' }}">
+      <h3><a href="bills/{{ b.slug }}.html">{{ b.display }}</a></h3>
+      <p class="title">{{ b.title }}</p>
+      <ul class="meta">
+        <li class="tag">{{ "Primary sponsor" if b.role == "primary" else "Cosponsor" }}</li>
+        <li class="tag">{{ b.status }}</li>
+        <li class="tag">Last action {{ b.last_action_date }}</li>
+      </ul>
+    </li>
+  {% endfor %}
+  </ul>
+</section>
+{% endfor %}
+{% endblock %}
+{% block scripts %}<script src="{{ base }}static/filter.js"></script>{% endblock %}

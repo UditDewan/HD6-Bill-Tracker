@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}{% endblock %} — HD6 Bill Tracker</title>
+<link rel="stylesheet" href="{{ base }}static/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<p class="banner">A volunteer student project. This is not an official website
+of the State of Ohio or of the Ohio House of Representatives.</p>
+<header>
+  <p class="site-name"><a href="{{ base }}index.html">HD6 Bill Tracker</a></p>
+  <nav aria-label="Main">
+    <ul>
+      <li><a href="{{ base }}index.html">Bills</a></li>
+      <li><a href="{{ base }}about.html">About</a></li>
+    </ul>
+  </nav>
+</header>
+<main id="main">
+{% block main %}{% endblock %}
+</main>
+<footer>
+  <p>Bill data from the Ohio House of Representatives and the Ohio
+  Legislature. Last updated {{ built }}.
+  <a href="{{ base }}about.html">How to report an error</a>.</p>
+</footer>
+{% block scripts %}{% endblock %}
+</body>
+</html>

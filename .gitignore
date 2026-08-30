@@ -1,0 +1,7 @@
+.cache/
+site/
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+pa11yci.json

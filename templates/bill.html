@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block title %}{{ bill.display }}{% endblock %}
+{% block main %}
+<h1>{{ bill.display }}</h1>
+<p class="title">{{ bill.title }}</p>
+
+<h2>What this bill would do</h2>
+{% if bill.summary %}
+<p>{{ bill.summary.summary }}</p>
+<p class="review">Summarized from {{ bill.summary.source }} and reviewed by
+{{ bill.summary.reviewed_by }} on {{ bill.summary.reviewed_on }}.
+<a href="{{ bill.summary.source_url }}">Read the official analysis and bill text</a>.</p>
+{% else %}
+<p>No plain-language summary has been reviewed for this bill yet. The official
+title above comes from the Legislative Service Commission and is the only
+description this site will show until a summary is reviewed.</p>
+<p><a href="{{ bill.url }}">Read the official bill text on the Ohio Legislature website</a>.</p>
+{% endif %}
+
+<h2>Status</h2>
+<dl>
+  <dt>Rep. Cockley's role</dt>
+  <dd>{{ "Primary sponsor" if bill.role == "primary" else "Cosponsor" }}</dd>
+  <dt>Current version</dt>
+  <dd>{{ bill.status }}</dd>
+  <dt>Most recent action</dt>
+  <dd>{{ bill.last_action_date }} &mdash; {{ bill.last_action }}</dd>
+  <dt>Introduced in</dt>
+  <dd>{{ bill.chamber|capitalize }}</dd>
+  <dt>Committee</dt>
+  <dd>{{ bill.committee or "Not currently in committee" }}</dd>
+  <dt>Topics</dt>
+  <dd>{{ bill.topics|join(", ") or "Not yet tagged" }}</dd>
+</dl>
+
+{% if bill.history %}
+<h2>Timeline</h2>
+<ol class="timeline" reversed>
+{% for h in bill.history|reverse %}
+  <li><time datetime="{{ h.date }}">{{ h.date }}</time> — {{ h.action }}</li>
+{% endfor %}
+</ol>
+{% endif %}
+
+<p><a href="{{ base }}index.html">Back to all bills</a></p>
+{% endblock %}

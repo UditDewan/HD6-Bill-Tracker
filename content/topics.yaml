@@ -1,0 +1,12 @@
+# Optional hand-maintained topic tags, keyed by bill number (uppercase, no
+# space). These OVERRIDE the Ohio Legislature's own subject tags, which the
+# site uses by default and which already cover most bills.
+#
+# Only add an entry when the official subjects are wrong or unhelpful for a
+# constituent — for example, a bill filed under "State and Local Government"
+# that a resident would look for under housing. Listing every bill here is not
+# the goal; the official taxonomy does that work already.
+#
+# Example:
+# HB663:
+#   - Technology

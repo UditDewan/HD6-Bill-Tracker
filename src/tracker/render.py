@@ -21,7 +21,7 @@ UNTAGGED = "Other"
 
 
 def display(number: str) -> str:
-    """HB663 -> HB 813."""
+    """HB663 -> HB 663."""
     return re.sub(r"^([A-Z]+)(\d+)$", r"\1 \2", number)
 
 

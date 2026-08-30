@@ -188,8 +188,8 @@ def snapshot_at(since: str, path: Path = SNAPSHOT) -> list[dict]:
     if rev:
         return json.loads(_git("show", f"{rev}:{path.as_posix()}"))
     print(
-        f"No commit of {path} before {since}; reconstructing that date from "
-        f"action history instead.",
+        f"No commit of {path.as_posix()} before {since}; reconstructing that "
+        f"date from action history instead.",
         file=sys.stderr,
     )
     return reconstruct(since, read_snapshot(path))

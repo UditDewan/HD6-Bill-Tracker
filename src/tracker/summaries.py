@@ -4,7 +4,7 @@ This module is the review gate. Nothing else in the codebase is allowed to
 read a summary file directly, and there is no flag that skips the check.
 """
 
-from dataclasses import dataclass
+from dataclasses import dataclass, fields
 from datetime import date
 from pathlib import Path
 
@@ -31,7 +31,13 @@ def load(path: Path) -> Summary:
     data = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
     if not data.get("reviewed_by") or not data.get("reviewed_on"):
         raise UnreviewedSummaryError(f"{path} lacks review metadata")
-    return Summary(**data)
+    known = {f.name for f in fields(Summary)}
+    missing = sorted(known - data.keys())
+    if missing:
+        raise SystemExit(f"{path} is missing: {', '.join(missing)}")
+    # Extra keys are ignored on purpose: a draft is published by moving the
+    # file, and the draft skeleton carries drafted_by with it.
+    return Summary(**{k: data[k] for k in known})
 
 
 def key(number: str) -> str:
@@ -45,7 +51,12 @@ def load_all(directory: Path = SUMMARY_DIR) -> dict[str, Summary]:
     Raises on the first unreviewed file, which is what fails the build.
     """
     out: dict[str, Summary] = {}
+    seen: dict[str, Path] = {}
     for path in sorted(directory.glob("*.yaml")):
         s = load(path)
-        out[key(s.bill)] = s
+        k = key(s.bill)
+        if k in seen:  # otherwise one reviewed summary silently replaces another
+            raise SystemExit(f"{path} and {seen[k]} both claim {k}")
+        seen[k] = path
+        out[k] = s
     return out

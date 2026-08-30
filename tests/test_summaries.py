@@ -66,3 +66,22 @@ def test_drafts_directory_is_never_published():
     for path in Path("content/drafts").glob("*.yaml"):
         with pytest.raises(UnreviewedSummaryError):
             load(path)
+
+
+def test_a_reviewed_draft_publishes_with_its_drafting_notes_intact(tmp_path):
+    """Publishing is `git mv drafts/ summaries/`, and drafts carry drafted_by."""
+    s = load(write(tmp_path, "hb663.yaml", GOOD + 'drafted_by: "D. Drafter"\n'))
+    assert s.reviewed_by == "A. Reviewer"
+
+
+def test_a_summary_missing_a_required_field_fails_the_build(tmp_path):
+    text = "\n".join(l for l in GOOD.splitlines() if not l.startswith("source_url"))
+    with pytest.raises(SystemExit):
+        load(write(tmp_path, "hb663.yaml", text))
+
+
+def test_two_files_cannot_claim_the_same_bill(tmp_path):
+    write(tmp_path, "hb663.yaml", GOOD)
+    write(tmp_path, "hb663-old.yaml", GOOD.replace("Would create", "Would also create"))
+    with pytest.raises(SystemExit):
+        load_all(tmp_path)

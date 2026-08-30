@@ -66,7 +66,7 @@ def write_skeleton(bill: dict) -> Path:
         path.write_text(
             SKELETON.format(
                 number=bill["number"],
-                display=bill["title"] and display(bill["number"]),
+                display=display(bill["number"]),
                 url=bill["url"],
                 slug=bill["number"].lower(),
             ),

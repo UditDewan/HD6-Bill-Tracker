@@ -33,3 +33,24 @@ def test_layout_change_fails_loudly_instead_of_dropping_bills():
         parse_roster("<html><body>redesigned</body></html>")
     with pytest.raises(SystemExit):
         parse_roster(FIXTURE)  # 8 rows, below the default minimum
+
+
+def test_a_row_missing_a_cell_never_borrows_the_next_row_s_title():
+    # The silent failure that matters: HB 32 published under HB 217's title.
+    page = """
+    <table><caption>Primary Sponsored Bills</caption><tbody>
+    <tr><th class="legislation-cell"><a href="/legislation/136/hb32">H. B. No. 32</a></th></tr>
+    <tr><th class="legislation-cell"><a href="/legislation/136/hb217">H. B. No. 217</a></th>
+    <td class="title-cell">Enact the FIND Act</td>
+    <td class="current-version-cell">As Introduced</td></tr>
+    </tbody></table>
+    """
+    rows = parse_roster(page, minimum=1)
+    assert rows == [
+        {
+            "number": "hb217",
+            "role": "primary",
+            "title": "Enact the FIND Act",
+            "version": "As Introduced",
+        }
+    ]

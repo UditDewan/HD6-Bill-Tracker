@@ -36,6 +36,7 @@ MAX_AGE = 20 * 3600  # ponytail: "once a day" = anything older than 20 hours
 MIN_BILLS = 50  # a roster smaller than this means the page changed shape
 
 _TABLE = re.compile(r"<caption>(.*?)</caption>(.*?)</table>", re.S)
+_TR = re.compile(r"<tr[^>]*>(.*?)</tr>", re.S)
 _ROW = re.compile(
     r'<a href="/legislation/136/([^"]+)">.*?</a>.*?'
     r'<td class="title-cell">(.*?)</td>.*?'
@@ -52,7 +53,8 @@ def _cached(name: str, url: str) -> str:
         r = requests.get(url, timeout=30, headers={"User-Agent": UA})
         if r.status_code != 429:  # the LIS API rate-limits; back off politely
             break
-        time.sleep(2**attempt)
+        if attempt < 4:  # no point sleeping after the last try
+            time.sleep(2**attempt)
     r.raise_for_status()
     CACHE.mkdir(exist_ok=True)
     path.write_text(r.text, encoding="utf-8")
@@ -69,7 +71,15 @@ def parse_roster(page: str, minimum: int = MIN_BILLS) -> list[dict]:
     out = []
     for caption, body in _TABLE.findall(page):
         role = "primary" if "Primary" in caption else "cosponsor"
-        for number, title, version in _ROW.findall(body):
+        # One row at a time: matched across the whole table body, the cell
+        # patterns would run past a row that is missing a cell and pair a bill
+        # number with the *next* row's title. A skipped row is recoverable —
+        # the minimum-count guard below catches it — a mislabelled bill is not.
+        for row in _TR.findall(body):
+            m = _ROW.search(row)
+            if m is None:
+                continue
+            number, title, version = m.groups()
             out.append(
                 {
                     "number": number,

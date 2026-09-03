@@ -12,7 +12,6 @@
     "url": "https://www.legislature.ohio.gov/legislation/136/hb3",
     "topics": [
       "Education",
-      "Finance and Appropriations",
       "Public Safety",
       "Transportation"
     ],
@@ -224,8 +223,7 @@
     "last_action_date": "2026-03-25",
     "url": "https://www.legislature.ohio.gov/legislation/136/hb25",
     "topics": [
-      "Education",
-      "Finance and Appropriations"
+      "Education"
     ],
     "history": [
       {
@@ -1810,7 +1808,13 @@
     "url": "https://www.legislature.ohio.gov/legislation/136/hb184",
     "topics": [
       "Education",
-      "Occupational Licensing and Regulation"
+      "Employment",
+      "Finance and Appropriations",
+      "Health and Human Services",
+      "Occupational Licensing and Regulation",
+      "State and Local Government",
+      "Taxation",
+      "Transportation"
     ],
     "history": [
       {
@@ -2353,7 +2357,8 @@
       "Commerce",
       "Health and Human Services",
       "Occupational Licensing and Regulation",
-      "State and Local Government"
+      "State and Local Government",
+      "Taxation"
     ],
     "history": [
       {
@@ -3698,6 +3703,7 @@
     "last_action_date": "2026-06-25",
     "url": "https://www.legislature.ohio.gov/legislation/136/hb472",
     "topics": [
+      "Elections",
       "Health and Human Services",
       "Housing and Real Property"
     ],
@@ -6485,7 +6491,10 @@
     "last_action_date": "2026-06-11",
     "url": "https://www.legislature.ohio.gov/legislation/136/sb52",
     "topics": [
-      "Special Designations"
+      "Military and Veterans",
+      "Public Safety",
+      "Special Designations",
+      "Transportation"
     ],
     "history": [
       {
@@ -7147,7 +7156,8 @@
     "last_action_date": "2026-06-11",
     "url": "https://www.legislature.ohio.gov/legislation/136/sb273",
     "topics": [
-      "Crimes, Corrections, and Law Enforcement"
+      "Crimes, Corrections, and Law Enforcement",
+      "State and Local Government"
     ],
     "history": [
       {

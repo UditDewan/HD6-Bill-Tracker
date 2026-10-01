@@ -4,11 +4,11 @@
     "title": "Enact the School Bus Safety Act",
     "role": "cosponsor",
     "status": "As Passed by the Senate",
-    "status_date": "2026-06-11",
+    "status_date": "2026-06-10",
     "committee": "Armed Services, Veterans Affairs and Public Safety",
     "chamber": "house",
     "last_action": "Passed (Senate)",
-    "last_action_date": "2026-06-11",
+    "last_action_date": "2026-06-10",
     "url": "https://www.legislature.ohio.gov/legislation/136/hb3",
     "topics": [
       "Education",
@@ -62,7 +62,7 @@
         "action": "Reported (Senate, Armed Services, Veterans Affairs and Public Safety Committee)"
       },
       {
-        "date": "2026-06-11",
+        "date": "2026-06-10",
         "chamber": "senate",
         "action": "Passed (Senate)"
       }
@@ -2789,11 +2789,11 @@
     "title": "Require US-produced iron, steel be used on state-funded projects",
     "role": "cosponsor",
     "status": "As Passed by the House",
-    "status_date": "2026-06-11",
-    "committee": "Development",
+    "status_date": "2026-09-30",
+    "committee": "Finance",
     "chamber": "house",
-    "last_action": "Introduced (Senate)",
-    "last_action_date": "2026-06-11",
+    "last_action": "Refer to Committee (Senate, Finance Committee)",
+    "last_action_date": "2026-09-30",
     "url": "https://www.legislature.ohio.gov/legislation/136/hb284",
     "topics": [
       "Economic Development",
@@ -2824,6 +2824,11 @@
         "date": "2026-06-11",
         "chamber": "senate",
         "action": "Introduced (Senate)"
+      },
+      {
+        "date": "2026-09-30",
+        "chamber": "senate",
+        "action": "Refer to Committee (Senate, Finance Committee)"
       }
     ]
   },
@@ -3590,11 +3595,11 @@
     "title": "Enact Katelyn's Law",
     "role": "cosponsor",
     "status": "As Passed by the House",
-    "status_date": "2026-06-11",
-    "committee": "Judiciary",
+    "status_date": "2026-09-30",
+    "committee": "Finance",
     "chamber": "house",
-    "last_action": "Introduced (Senate)",
-    "last_action_date": "2026-06-11",
+    "last_action": "Refer to Committee (Senate, Finance Committee)",
+    "last_action_date": "2026-09-30",
     "url": "https://www.legislature.ohio.gov/legislation/136/hb459",
     "topics": [
       "Crimes, Corrections, and Law Enforcement",
@@ -3625,6 +3630,11 @@
         "date": "2026-06-11",
         "chamber": "senate",
         "action": "Introduced (Senate)"
+      },
+      {
+        "date": "2026-09-30",
+        "chamber": "senate",
+        "action": "Refer to Committee (Senate, Finance Committee)"
       }
     ]
   },
@@ -3751,17 +3761,7 @@
       {
         "date": "2026-06-10",
         "chamber": "house",
-        "action": "Message Read (House)"
-      },
-      {
-        "date": "2026-06-11",
-        "chamber": "house",
         "action": "Concurred in Senate amendments (House)"
-      },
-      {
-        "date": "2026-06-11",
-        "chamber": "house",
-        "action": "The question being, Shall the amendments be concurred in? (House)"
       },
       {
         "date": "2026-06-25",
@@ -4005,11 +4005,11 @@
     "title": "Regulate ticket sales",
     "role": "cosponsor",
     "status": "As Passed by the House",
-    "status_date": "2026-06-11",
-    "committee": "Technology and Innovation",
+    "status_date": "2026-09-30",
+    "committee": "Finance",
     "chamber": "house",
-    "last_action": "Introduced (Senate)",
-    "last_action_date": "2026-06-11",
+    "last_action": "Refer to Committee (Senate, Finance Committee)",
+    "last_action_date": "2026-09-30",
     "url": "https://www.legislature.ohio.gov/legislation/136/hb563",
     "topics": [
       "Commerce"
@@ -4039,6 +4039,11 @@
         "date": "2026-06-11",
         "chamber": "senate",
         "action": "Introduced (Senate)"
+      },
+      {
+        "date": "2026-09-30",
+        "chamber": "senate",
+        "action": "Refer to Committee (Senate, Finance Committee)"
       }
     ]
   },
@@ -4095,11 +4100,11 @@
     "title": "Regards DoDD authority re: community capital assistance funds",
     "role": "cosponsor",
     "status": "As Passed by the House",
-    "status_date": "2026-06-11",
-    "committee": "Community Revitalization",
+    "status_date": "2026-09-30",
+    "committee": "Finance",
     "chamber": "house",
-    "last_action": "Introduced (Senate)",
-    "last_action_date": "2026-06-11",
+    "last_action": "Refer to Committee (Senate, Finance Committee)",
+    "last_action_date": "2026-09-30",
     "url": "https://www.legislature.ohio.gov/legislation/136/hb585",
     "topics": [
       "Health and Human Services",
@@ -4135,6 +4140,11 @@
         "date": "2026-06-11",
         "chamber": "senate",
         "action": "Introduced (Senate)"
+      },
+      {
+        "date": "2026-09-30",
+        "chamber": "senate",
+        "action": "Refer to Committee (Senate, Finance Committee)"
       }
     ]
   },
@@ -4191,11 +4201,11 @@
     "title": "Issue medical marijuana processor cultivation, dispensary license",
     "role": "cosponsor",
     "status": "As Passed by the House",
-    "status_date": "2026-06-11",
-    "committee": "Judiciary",
+    "status_date": "2026-09-30",
+    "committee": "Finance",
     "chamber": "house",
-    "last_action": "Introduced (Senate)",
-    "last_action_date": "2026-06-11",
+    "last_action": "Refer to Committee (Senate, Finance Committee)",
+    "last_action_date": "2026-09-30",
     "url": "https://www.legislature.ohio.gov/legislation/136/hb611",
     "topics": [
       "Commerce",
@@ -4226,6 +4236,11 @@
         "date": "2026-06-11",
         "chamber": "senate",
         "action": "Introduced (Senate)"
+      },
+      {
+        "date": "2026-09-30",
+        "chamber": "senate",
+        "action": "Refer to Committee (Senate, Finance Committee)"
       }
     ]
   },
@@ -4395,11 +4410,11 @@
     "title": "Regards registered veterinary technician authority",
     "role": "cosponsor",
     "status": "As Passed by the House",
-    "status_date": "2026-06-11",
-    "committee": "Agriculture",
+    "status_date": "2026-09-30",
+    "committee": "Finance",
     "chamber": "house",
-    "last_action": "Introduced (Senate)",
-    "last_action_date": "2026-06-11",
+    "last_action": "Refer to Committee (Senate, Finance Committee)",
+    "last_action_date": "2026-09-30",
     "url": "https://www.legislature.ohio.gov/legislation/136/hb664",
     "topics": [
       "Agriculture",
@@ -4430,6 +4445,11 @@
         "date": "2026-06-11",
         "chamber": "senate",
         "action": "Introduced (Senate)"
+      },
+      {
+        "date": "2026-09-30",
+        "chamber": "senate",
+        "action": "Refer to Committee (Senate, Finance Committee)"
       }
     ]
   },
@@ -5055,11 +5075,11 @@
     "title": "Require appointed police chief to complete officer basic training",
     "role": "cosponsor",
     "status": "As Passed by the House",
-    "status_date": "2026-06-11",
-    "committee": "Public Safety",
+    "status_date": "2026-09-30",
+    "committee": "Finance",
     "chamber": "house",
-    "last_action": "Introduced (Senate)",
-    "last_action_date": "2026-06-11",
+    "last_action": "Refer to Committee (Senate, Finance Committee)",
+    "last_action_date": "2026-09-30",
     "url": "https://www.legislature.ohio.gov/legislation/136/hb852",
     "topics": [
       "Crimes, Corrections, and Law Enforcement",
@@ -5092,6 +5112,11 @@
         "date": "2026-06-11",
         "chamber": "senate",
         "action": "Introduced (Senate)"
+      },
+      {
+        "date": "2026-09-30",
+        "chamber": "senate",
+        "action": "Refer to Committee (Senate, Finance Committee)"
       }
     ]
   },
@@ -5388,6 +5413,31 @@
     "history": [
       {
         "date": "2026-09-28",
+        "chamber": "house",
+        "action": "Introduced (House)"
+      }
+    ]
+  },
+  {
+    "number": "HB1020",
+    "title": "Temporarily suspend the motor fuel tax; make other changes",
+    "role": "cosponsor",
+    "status": "As Introduced",
+    "status_date": "2026-09-30",
+    "committee": null,
+    "chamber": "house",
+    "last_action": "Introduced (House)",
+    "last_action_date": "2026-09-30",
+    "url": "https://www.legislature.ohio.gov/legislation/136/hb1020",
+    "topics": [
+      "Commerce",
+      "Economic Development",
+      "Taxation",
+      "Transportation"
+    ],
+    "history": [
+      {
+        "date": "2026-09-30",
         "chamber": "house",
         "action": "Introduced (House)"
       }
@@ -6889,11 +6939,11 @@
     "title": "Regards timing of health insurer recoupment from providers",
     "role": "cosponsor",
     "status": "As Enrolled",
-    "status_date": "2026-06-11",
+    "status_date": "2026-06-10",
     "committee": "Health",
     "chamber": "senate",
     "last_action": "Concurred in House amendments (Senate)",
-    "last_action_date": "2026-06-11",
+    "last_action_date": "2026-06-10",
     "url": "https://www.legislature.ohio.gov/legislation/136/sb162",
     "topics": [
       "Commerce",
@@ -6941,7 +6991,7 @@
         "action": "Passed (House)"
       },
       {
-        "date": "2026-06-11",
+        "date": "2026-06-10",
         "chamber": "senate",
         "action": "Concurred in House amendments (Senate)"
       }
@@ -7310,16 +7360,6 @@
         "date": "2026-06-10",
         "chamber": "house",
         "action": "Reported (House, Finance Committee)"
-      },
-      {
-        "date": "2026-06-10",
-        "chamber": "house",
-        "action": "Question being, Shall the emergency clause stand? (House)"
-      },
-      {
-        "date": "2026-06-10",
-        "chamber": "house",
-        "action": "Pass as an emergency measure? (House)"
       },
       {
         "date": "2026-06-10",

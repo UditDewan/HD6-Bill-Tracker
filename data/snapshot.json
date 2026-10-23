@@ -5445,14 +5445,14 @@
   },
   {
     "number": "HB1032",
-    "title": "",
+    "title": "Regards AI use by state agencies and in labor and employment",
     "role": "primary",
     "status": "As Introduced",
-    "status_date": "",
+    "status_date": "2026-10-22",
     "committee": null,
     "chamber": "house",
-    "last_action": "",
-    "last_action_date": "",
+    "last_action": "Introduced (House)",
+    "last_action_date": "2026-10-22",
     "url": "https://www.legislature.ohio.gov/legislation/136/hb1032",
     "topics": [
       "Commerce",
@@ -5460,7 +5460,13 @@
       "Employment",
       "State and Local Government"
     ],
-    "history": []
+    "history": [
+      {
+        "date": "2026-10-22",
+        "chamber": "house",
+        "action": "Introduced (House)"
+      }
+    ]
   },
   {
     "number": "HCR4",

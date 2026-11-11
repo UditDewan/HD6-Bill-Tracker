@@ -2574,6 +2574,43 @@
     ]
   },
   {
+    "number": "HB255",
+    "title": "Create the Ohio Sports Commission",
+    "role": "cosponsor",
+    "status": "As Passed by the House",
+    "status_date": "2026-11-10",
+    "committee": "Arts, Athletics, and Tourism",
+    "chamber": "house",
+    "last_action": "Passed (House)",
+    "last_action_date": "2026-11-10",
+    "url": "https://www.legislature.ohio.gov/legislation/136/hb255",
+    "topics": [
+      "State and Local Government"
+    ],
+    "history": [
+      {
+        "date": "2025-05-05",
+        "chamber": "house",
+        "action": "Introduced (House)"
+      },
+      {
+        "date": "2025-05-07",
+        "chamber": "house",
+        "action": "Refer to Committee (House, General Government Committee)"
+      },
+      {
+        "date": "2026-06-09",
+        "chamber": "house",
+        "action": "Reported (House, Arts, Athletics, and Tourism Committee)"
+      },
+      {
+        "date": "2026-11-10",
+        "chamber": "house",
+        "action": "Passed (House)"
+      }
+    ]
+  },
+  {
     "number": "HB257",
     "title": "Enact the Ohio Medical Debt Fairness Act",
     "role": "cosponsor",
@@ -2951,6 +2988,43 @@
         "date": "2026-03-04",
         "chamber": "senate",
         "action": "Refer to Committee (Senate, Addiction and Community Revitalization Committee)"
+      }
+    ]
+  },
+  {
+    "number": "HB304",
+    "title": "Permit certain activities fulfill PE requirement; require recess",
+    "role": "cosponsor",
+    "status": "As Passed by the House",
+    "status_date": "2026-11-10",
+    "committee": "Education",
+    "chamber": "house",
+    "last_action": "Passed (House)",
+    "last_action_date": "2026-11-10",
+    "url": "https://www.legislature.ohio.gov/legislation/136/hb304",
+    "topics": [
+      "Education"
+    ],
+    "history": [
+      {
+        "date": "2025-05-27",
+        "chamber": "house",
+        "action": "Introduced (House)"
+      },
+      {
+        "date": "2025-05-28",
+        "chamber": "house",
+        "action": "Refer to Committee (House, General Government Committee)"
+      },
+      {
+        "date": "2026-06-10",
+        "chamber": "house",
+        "action": "Reported (House, Education Committee)"
+      },
+      {
+        "date": "2026-11-10",
+        "chamber": "house",
+        "action": "Passed (House)"
       }
     ]
   },
@@ -3468,12 +3542,12 @@
     "number": "HB416",
     "title": "Designate Police Officer Phillip Wagner Memorial Highway",
     "role": "cosponsor",
-    "status": "As Introduced",
-    "status_date": "2025-09-12",
+    "status": "As Reported by the House Transportation Committee",
+    "status_date": "2026-11-10",
     "committee": "Transportation",
     "chamber": "house",
-    "last_action": "Refer to Committee (House, Transportation Committee)",
-    "last_action_date": "2025-09-12",
+    "last_action": "Reported (House, Transportation Committee)",
+    "last_action_date": "2026-11-10",
     "url": "https://www.legislature.ohio.gov/legislation/136/hb416",
     "topics": [
       "Crimes, Corrections, and Law Enforcement",
@@ -3490,6 +3564,11 @@
         "date": "2025-09-12",
         "chamber": "house",
         "action": "Refer to Committee (House, Transportation Committee)"
+      },
+      {
+        "date": "2026-11-10",
+        "chamber": "house",
+        "action": "Reported (House, Transportation Committee)"
       }
     ]
   },
@@ -3938,6 +4017,43 @@
         "date": "2025-10-22",
         "chamber": "house",
         "action": "Refer to Committee (House, Local Government Committee)"
+      }
+    ]
+  },
+  {
+    "number": "HB530",
+    "title": "Establish the Long-term Care Workforce Study Commission",
+    "role": "cosponsor",
+    "status": "As Passed by the House",
+    "status_date": "2026-11-10",
+    "committee": "Workforce and Higher Education",
+    "chamber": "house",
+    "last_action": "Passed (House)",
+    "last_action_date": "2026-11-10",
+    "url": "https://www.legislature.ohio.gov/legislation/136/hb530",
+    "topics": [
+      "Health and Human Services"
+    ],
+    "history": [
+      {
+        "date": "2025-10-21",
+        "chamber": "house",
+        "action": "Introduced (House)"
+      },
+      {
+        "date": "2025-10-22",
+        "chamber": "house",
+        "action": "Refer to Committee (House, Local Government Committee)"
+      },
+      {
+        "date": "2026-06-09",
+        "chamber": "house",
+        "action": "Reported (House, Workforce and Higher Education Committee)"
+      },
+      {
+        "date": "2026-11-10",
+        "chamber": "house",
+        "action": "Passed (House)"
       }
     ]
   },
@@ -5379,11 +5495,11 @@
     "title": "Require bill credits, reimbursements after certain power outages",
     "role": "cosponsor",
     "status": "As Introduced",
-    "status_date": "2026-09-23",
-    "committee": null,
+    "status_date": "2026-11-10",
+    "committee": "Judiciary",
     "chamber": "house",
-    "last_action": "Introduced (House)",
-    "last_action_date": "2026-09-23",
+    "last_action": "Refer to Committee (House, Judiciary Committee)",
+    "last_action_date": "2026-11-10",
     "url": "https://www.legislature.ohio.gov/legislation/136/hb1014",
     "topics": [
       "Utilities "
@@ -5393,6 +5509,11 @@
         "date": "2026-09-23",
         "chamber": "house",
         "action": "Introduced (House)"
+      },
+      {
+        "date": "2026-11-10",
+        "chamber": "house",
+        "action": "Refer to Committee (House, Judiciary Committee)"
       }
     ]
   },
@@ -5401,11 +5522,11 @@
     "title": "Designate Dolly Parton Imagination Library Reading Day",
     "role": "cosponsor",
     "status": "As Introduced",
-    "status_date": "2026-09-28",
-    "committee": null,
+    "status_date": "2026-11-10",
+    "committee": "Judiciary",
     "chamber": "house",
-    "last_action": "Introduced (House)",
-    "last_action_date": "2026-09-28",
+    "last_action": "Refer to Committee (House, Judiciary Committee)",
+    "last_action_date": "2026-11-10",
     "url": "https://www.legislature.ohio.gov/legislation/136/hb1018",
     "topics": [
       "Education"
@@ -5415,6 +5536,11 @@
         "date": "2026-09-28",
         "chamber": "house",
         "action": "Introduced (House)"
+      },
+      {
+        "date": "2026-11-10",
+        "chamber": "house",
+        "action": "Refer to Committee (House, Judiciary Committee)"
       }
     ]
   },
@@ -5423,11 +5549,11 @@
     "title": "Temporarily suspend the motor fuel tax; make other changes",
     "role": "cosponsor",
     "status": "As Introduced",
-    "status_date": "2026-09-30",
-    "committee": null,
+    "status_date": "2026-11-10",
+    "committee": "Judiciary",
     "chamber": "house",
-    "last_action": "Introduced (House)",
-    "last_action_date": "2026-09-30",
+    "last_action": "Refer to Committee (House, Judiciary Committee)",
+    "last_action_date": "2026-11-10",
     "url": "https://www.legislature.ohio.gov/legislation/136/hb1020",
     "topics": [
       "Commerce",
@@ -5440,6 +5566,11 @@
         "date": "2026-09-30",
         "chamber": "house",
         "action": "Introduced (House)"
+      },
+      {
+        "date": "2026-11-10",
+        "chamber": "house",
+        "action": "Refer to Committee (House, Judiciary Committee)"
       }
     ]
   },
@@ -5448,11 +5579,11 @@
     "title": "Regards AI use by state agencies and in labor and employment",
     "role": "primary",
     "status": "As Introduced",
-    "status_date": "2026-10-22",
-    "committee": null,
+    "status_date": "2026-11-10",
+    "committee": "Judiciary",
     "chamber": "house",
-    "last_action": "Introduced (House)",
-    "last_action_date": "2026-10-22",
+    "last_action": "Refer to Committee (House, Judiciary Committee)",
+    "last_action_date": "2026-11-10",
     "url": "https://www.legislature.ohio.gov/legislation/136/hb1032",
     "topics": [
       "Commerce",
@@ -5465,6 +5596,11 @@
         "date": "2026-10-22",
         "chamber": "house",
         "action": "Introduced (House)"
+      },
+      {
+        "date": "2026-11-10",
+        "chamber": "house",
+        "action": "Refer to Committee (House, Judiciary Committee)"
       }
     ]
   },
@@ -5891,6 +6027,30 @@
         "date": "2026-05-13",
         "chamber": "house",
         "action": "Introduced and Referred to Committee (House, Natural Resources Committee)"
+      }
+    ]
+  },
+  {
+    "number": "HCR48",
+    "title": "Call upon President of the United States to end the war in Iran",
+    "role": "cosponsor",
+    "status": "As Introduced",
+    "status_date": "2026-11-10",
+    "committee": "General Government",
+    "chamber": "house",
+    "last_action": "Introduced and Referred to Committee (House, General Government Committee)",
+    "last_action_date": "2026-11-10",
+    "url": "https://www.legislature.ohio.gov/legislation/136/hcr48",
+    "topics": [
+      "Economic Development",
+      "Environment and Natural Resources",
+      "National or International Resolution"
+    ],
+    "history": [
+      {
+        "date": "2026-11-10",
+        "chamber": "house",
+        "action": "Introduced and Referred to Committee (House, General Government Committee)"
       }
     ]
   },

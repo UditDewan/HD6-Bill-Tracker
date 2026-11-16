@@ -2578,11 +2578,11 @@
     "title": "Create the Ohio Sports Commission",
     "role": "cosponsor",
     "status": "As Passed by the House",
-    "status_date": "2026-11-10",
+    "status_date": "2026-11-16",
     "committee": "Arts, Athletics, and Tourism",
     "chamber": "house",
-    "last_action": "Passed (House)",
-    "last_action_date": "2026-11-10",
+    "last_action": "Introduced (Senate)",
+    "last_action_date": "2026-11-16",
     "url": "https://www.legislature.ohio.gov/legislation/136/hb255",
     "topics": [
       "State and Local Government"
@@ -2607,6 +2607,11 @@
         "date": "2026-11-10",
         "chamber": "house",
         "action": "Passed (House)"
+      },
+      {
+        "date": "2026-11-16",
+        "chamber": "senate",
+        "action": "Introduced (Senate)"
       }
     ]
   },
@@ -2996,11 +3001,11 @@
     "title": "Permit certain activities fulfill PE requirement; require recess",
     "role": "cosponsor",
     "status": "As Passed by the House",
-    "status_date": "2026-11-10",
+    "status_date": "2026-11-16",
     "committee": "Education",
     "chamber": "house",
-    "last_action": "Passed (House)",
-    "last_action_date": "2026-11-10",
+    "last_action": "Introduced (Senate)",
+    "last_action_date": "2026-11-16",
     "url": "https://www.legislature.ohio.gov/legislation/136/hb304",
     "topics": [
       "Education"
@@ -3025,6 +3030,11 @@
         "date": "2026-11-10",
         "chamber": "house",
         "action": "Passed (House)"
+      },
+      {
+        "date": "2026-11-16",
+        "chamber": "senate",
+        "action": "Introduced (Senate)"
       }
     ]
   },
@@ -4025,11 +4035,11 @@
     "title": "Establish the Long-term Care Workforce Study Commission",
     "role": "cosponsor",
     "status": "As Passed by the House",
-    "status_date": "2026-11-10",
+    "status_date": "2026-11-16",
     "committee": "Workforce and Higher Education",
     "chamber": "house",
-    "last_action": "Passed (House)",
-    "last_action_date": "2026-11-10",
+    "last_action": "Introduced (Senate)",
+    "last_action_date": "2026-11-16",
     "url": "https://www.legislature.ohio.gov/legislation/136/hb530",
     "topics": [
       "Health and Human Services"
@@ -4054,6 +4064,11 @@
         "date": "2026-11-10",
         "chamber": "house",
         "action": "Passed (House)"
+      },
+      {
+        "date": "2026-11-16",
+        "chamber": "senate",
+        "action": "Introduced (Senate)"
       }
     ]
   },

@@ -6027,12 +6027,12 @@
     "number": "HCR44",
     "title": "Encourage DD boards adopt an advisory board of self-advocates",
     "role": "cosponsor",
-    "status": "As Introduced",
-    "status_date": "2026-05-13",
-    "committee": "Natural Resources",
+    "status": "As Reported by the House Children and Human Services Committee",
+    "status_date": "2026-11-17",
+    "committee": "Children and Human Services",
     "chamber": "house",
-    "last_action": "Introduced and Referred to Committee (House, Natural Resources Committee)",
-    "last_action_date": "2026-05-13",
+    "last_action": "Reported (House, Children and Human Services Committee)",
+    "last_action_date": "2026-11-17",
     "url": "https://www.legislature.ohio.gov/legislation/136/hcr44",
     "topics": [
       "Health and Human Services"
@@ -6042,6 +6042,11 @@
         "date": "2026-05-13",
         "chamber": "house",
         "action": "Introduced and Referred to Committee (House, Natural Resources Committee)"
+      },
+      {
+        "date": "2026-11-17",
+        "chamber": "house",
+        "action": "Reported (House, Children and Human Services Committee)"
       }
     ]
   },

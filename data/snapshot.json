@@ -4,11 +4,11 @@
     "title": "Enact the School Bus Safety Act",
     "role": "cosponsor",
     "status": "As Passed by the Senate",
-    "status_date": "2026-06-10",
+    "status_date": "2026-11-18",
     "committee": "Armed Services, Veterans Affairs and Public Safety",
     "chamber": "house",
-    "last_action": "Passed (Senate)",
-    "last_action_date": "2026-06-10",
+    "last_action": "Refused to concur in Senate amendments (House)",
+    "last_action_date": "2026-11-18",
     "url": "https://www.legislature.ohio.gov/legislation/136/hb3",
     "topics": [
       "Education",
@@ -65,6 +65,11 @@
         "date": "2026-06-10",
         "chamber": "senate",
         "action": "Passed (Senate)"
+      },
+      {
+        "date": "2026-11-18",
+        "chamber": "house",
+        "action": "Refused to concur in Senate amendments (House)"
       }
     ]
   },
@@ -754,12 +759,12 @@
     "number": "HB58",
     "title": "Create recovery housing residences certificate of need program",
     "role": "cosponsor",
-    "status": "As Passed by the House",
-    "status_date": "2026-03-04",
+    "status": "As Passed by the Senate",
+    "status_date": "2026-11-18",
     "committee": "Addiction and Community Revitalization",
     "chamber": "house",
-    "last_action": "Refer to Committee (Senate, Addiction and Community Revitalization Committee)",
-    "last_action_date": "2026-03-04",
+    "last_action": "Concurred in Senate amendments (House)",
+    "last_action_date": "2026-11-18",
     "url": "https://www.legislature.ohio.gov/legislation/136/hb58",
     "topics": [
       "Health and Human Services"
@@ -794,6 +799,21 @@
         "date": "2026-03-04",
         "chamber": "senate",
         "action": "Refer to Committee (Senate, Addiction and Community Revitalization Committee)"
+      },
+      {
+        "date": "2026-11-18",
+        "chamber": "senate",
+        "action": "Reported (Senate, Addiction and Community Revitalization Committee)"
+      },
+      {
+        "date": "2026-11-18",
+        "chamber": "senate",
+        "action": "Passed (Senate)"
+      },
+      {
+        "date": "2026-11-18",
+        "chamber": "house",
+        "action": "Concurred in Senate amendments (House)"
       }
     ]
   },
@@ -1668,12 +1688,12 @@
     "number": "HB168",
     "title": "Regards motivation or purpose to commit criminal child enticement",
     "role": "cosponsor",
-    "status": "As Passed by the House",
-    "status_date": "2025-06-25",
-    "committee": "Agriculture and Natural Resources",
+    "status": "As Enrolled",
+    "status_date": "2026-11-18",
+    "committee": "Judiciary",
     "chamber": "house",
-    "last_action": "Refer to Committee (Senate, Agriculture and Natural Resources Committee)",
-    "last_action_date": "2025-06-25",
+    "last_action": "Passed (Senate)",
+    "last_action_date": "2026-11-18",
     "url": "https://www.legislature.ohio.gov/legislation/136/hb168",
     "topics": [
       "Crimes, Corrections, and Law Enforcement"
@@ -1708,6 +1728,16 @@
         "date": "2025-06-25",
         "chamber": "senate",
         "action": "Refer to Committee (Senate, Agriculture and Natural Resources Committee)"
+      },
+      {
+        "date": "2026-11-18",
+        "chamber": "senate",
+        "action": "Reported (Senate, Judiciary Committee)"
+      },
+      {
+        "date": "2026-11-18",
+        "chamber": "senate",
+        "action": "Passed (Senate)"
       }
     ]
   },
@@ -2578,11 +2608,11 @@
     "title": "Create the Ohio Sports Commission",
     "role": "cosponsor",
     "status": "As Passed by the House",
-    "status_date": "2026-11-16",
-    "committee": "Arts, Athletics, and Tourism",
+    "status_date": "2026-11-18",
+    "committee": "Judiciary",
     "chamber": "house",
-    "last_action": "Introduced (Senate)",
-    "last_action_date": "2026-11-16",
+    "last_action": "Refer to Committee (Senate, Judiciary Committee)",
+    "last_action_date": "2026-11-18",
     "url": "https://www.legislature.ohio.gov/legislation/136/hb255",
     "topics": [
       "State and Local Government"
@@ -2612,6 +2642,11 @@
         "date": "2026-11-16",
         "chamber": "senate",
         "action": "Introduced (Senate)"
+      },
+      {
+        "date": "2026-11-18",
+        "chamber": "senate",
+        "action": "Refer to Committee (Senate, Judiciary Committee)"
       }
     ]
   },
@@ -3001,11 +3036,11 @@
     "title": "Permit certain activities fulfill PE requirement; require recess",
     "role": "cosponsor",
     "status": "As Passed by the House",
-    "status_date": "2026-11-16",
-    "committee": "Education",
+    "status_date": "2026-11-18",
+    "committee": "Judiciary",
     "chamber": "house",
-    "last_action": "Introduced (Senate)",
-    "last_action_date": "2026-11-16",
+    "last_action": "Refer to Committee (Senate, Judiciary Committee)",
+    "last_action_date": "2026-11-18",
     "url": "https://www.legislature.ohio.gov/legislation/136/hb304",
     "topics": [
       "Education"
@@ -3035,6 +3070,11 @@
         "date": "2026-11-16",
         "chamber": "senate",
         "action": "Introduced (Senate)"
+      },
+      {
+        "date": "2026-11-18",
+        "chamber": "senate",
+        "action": "Refer to Committee (Senate, Judiciary Committee)"
       }
     ]
   },
@@ -3100,12 +3140,12 @@
     "number": "HB312",
     "title": "Designate the walleye as the official fish of the state",
     "role": "cosponsor",
-    "status": "As Introduced",
-    "status_date": "2025-06-04",
-    "committee": "Public Safety",
+    "status": "As Reported by the House Arts, Athletics, and Tourism Committee",
+    "status_date": "2026-11-18",
+    "committee": "Arts, Athletics, and Tourism",
     "chamber": "house",
-    "last_action": "Refer to Committee (House, Public Safety Committee)",
-    "last_action_date": "2025-06-04",
+    "last_action": "Reported (House, Arts, Athletics, and Tourism Committee)",
+    "last_action_date": "2026-11-18",
     "url": "https://www.legislature.ohio.gov/legislation/136/hb312",
     "topics": [
       "Agriculture",
@@ -3122,6 +3162,11 @@
         "date": "2025-06-04",
         "chamber": "house",
         "action": "Refer to Committee (House, Public Safety Committee)"
+      },
+      {
+        "date": "2026-11-18",
+        "chamber": "house",
+        "action": "Reported (House, Arts, Athletics, and Tourism Committee)"
       }
     ]
   },
@@ -4035,11 +4080,11 @@
     "title": "Establish the Long-term Care Workforce Study Commission",
     "role": "cosponsor",
     "status": "As Passed by the House",
-    "status_date": "2026-11-16",
-    "committee": "Workforce and Higher Education",
+    "status_date": "2026-11-18",
+    "committee": "Judiciary",
     "chamber": "house",
-    "last_action": "Introduced (Senate)",
-    "last_action_date": "2026-11-16",
+    "last_action": "Refer to Committee (Senate, Judiciary Committee)",
+    "last_action_date": "2026-11-18",
     "url": "https://www.legislature.ohio.gov/legislation/136/hb530",
     "topics": [
       "Health and Human Services"
@@ -4069,6 +4114,11 @@
         "date": "2026-11-16",
         "chamber": "senate",
         "action": "Introduced (Senate)"
+      },
+      {
+        "date": "2026-11-18",
+        "chamber": "senate",
+        "action": "Refer to Committee (Senate, Judiciary Committee)"
       }
     ]
   },
@@ -4405,15 +4455,54 @@
     ]
   },
   {
+    "number": "HB632",
+    "title": "Allow driver's license or ID card to show Gold Star Family status",
+    "role": "cosponsor",
+    "status": "As Passed by the House",
+    "status_date": "2026-11-18",
+    "committee": "Veterans and Military Development",
+    "chamber": "house",
+    "last_action": "Passed (House)",
+    "last_action_date": "2026-11-18",
+    "url": "https://www.legislature.ohio.gov/legislation/136/hb632",
+    "topics": [
+      "Military and Veterans",
+      "Public Safety",
+      "Transportation"
+    ],
+    "history": [
+      {
+        "date": "2025-12-16",
+        "chamber": "house",
+        "action": "Introduced (House)"
+      },
+      {
+        "date": "2026-02-04",
+        "chamber": "house",
+        "action": "Refer to Committee (House, Natural Resources Committee)"
+      },
+      {
+        "date": "2026-11-10",
+        "chamber": "house",
+        "action": "Reported (House, Veterans and Military Development Committee)"
+      },
+      {
+        "date": "2026-11-18",
+        "chamber": "house",
+        "action": "Passed (House)"
+      }
+    ]
+  },
+  {
     "number": "HB639",
     "title": "Create defense to nuisance claims re: racing facilities",
     "role": "cosponsor",
-    "status": "As Passed by the House",
-    "status_date": "2026-06-10",
-    "committee": "Finance",
+    "status": "As Re-Referred to the Senate Judiciary Committee",
+    "status_date": "2026-11-18",
+    "committee": "Judiciary",
     "chamber": "house",
-    "last_action": "Refer to Committee (Senate, Finance Committee)",
-    "last_action_date": "2026-06-10",
+    "last_action": "Re-referred (Senate, Judiciary Committee)",
+    "last_action_date": "2026-11-18",
     "url": "https://www.legislature.ohio.gov/legislation/136/hb639",
     "topics": [
       "Commerce",
@@ -4449,6 +4538,11 @@
         "date": "2026-06-10",
         "chamber": "senate",
         "action": "Refer to Committee (Senate, Finance Committee)"
+      },
+      {
+        "date": "2026-11-18",
+        "chamber": "senate",
+        "action": "Re-referred (Senate, Judiciary Committee)"
       }
     ]
   },
@@ -4639,6 +4733,45 @@
     ]
   },
   {
+    "number": "HB701",
+    "title": "Regards juvenile offenders, qualification for employment",
+    "role": "cosponsor",
+    "status": "As Passed by the House",
+    "status_date": "2026-11-18",
+    "committee": "Community Revitalization",
+    "chamber": "house",
+    "last_action": "Passed (House)",
+    "last_action_date": "2026-11-18",
+    "url": "https://www.legislature.ohio.gov/legislation/136/hb701",
+    "topics": [
+      "Courts and Civil Law",
+      "Crimes, Corrections, and Law Enforcement",
+      "Employment"
+    ],
+    "history": [
+      {
+        "date": "2026-02-17",
+        "chamber": "house",
+        "action": "Introduced (House)"
+      },
+      {
+        "date": "2026-02-18",
+        "chamber": "house",
+        "action": "Refer to Committee (House, Health Committee)"
+      },
+      {
+        "date": "2026-11-18",
+        "chamber": "house",
+        "action": "Reported (House, Community Revitalization Committee)"
+      },
+      {
+        "date": "2026-11-18",
+        "chamber": "house",
+        "action": "Passed (House)"
+      }
+    ]
+  },
+  {
     "number": "HB706",
     "title": "Impose certain minimum requirements on data center customers",
     "role": "cosponsor",
@@ -4709,6 +4842,43 @@
         "date": "2026-06-02",
         "chamber": "senate",
         "action": "Refer to Committee (Senate, Finance Committee)"
+      }
+    ]
+  },
+  {
+    "number": "HB750",
+    "title": "Regards PACE program site expansion",
+    "role": "cosponsor",
+    "status": "As Passed by the House",
+    "status_date": "2026-11-18",
+    "committee": "Health",
+    "chamber": "house",
+    "last_action": "Passed (House)",
+    "last_action_date": "2026-11-18",
+    "url": "https://www.legislature.ohio.gov/legislation/136/hb750",
+    "topics": [
+      "Health and Human Services"
+    ],
+    "history": [
+      {
+        "date": "2026-03-09",
+        "chamber": "house",
+        "action": "Introduced (House)"
+      },
+      {
+        "date": "2026-03-18",
+        "chamber": "house",
+        "action": "Refer to Committee (House, Agriculture Committee)"
+      },
+      {
+        "date": "2026-06-10",
+        "chamber": "house",
+        "action": "Reported (House, Health Committee)"
+      },
+      {
+        "date": "2026-11-18",
+        "chamber": "house",
+        "action": "Passed (House)"
       }
     ]
   },
@@ -5388,6 +5558,43 @@
         "date": "2026-05-13",
         "chamber": "house",
         "action": "Refer to Committee (House, Veterans and Military Development Committee)"
+      }
+    ]
+  },
+  {
+    "number": "HB865",
+    "title": "Regards information on and advertisement of adoptable children",
+    "role": "cosponsor",
+    "status": "As Passed by the House",
+    "status_date": "2026-11-18",
+    "committee": "Children and Human Services",
+    "chamber": "house",
+    "last_action": "Passed (House)",
+    "last_action_date": "2026-11-18",
+    "url": "https://www.legislature.ohio.gov/legislation/136/hb865",
+    "topics": [
+      "Juvenile and Family Law"
+    ],
+    "history": [
+      {
+        "date": "2026-05-12",
+        "chamber": "house",
+        "action": "Introduced (House)"
+      },
+      {
+        "date": "2026-05-13",
+        "chamber": "house",
+        "action": "Refer to Committee (House, Veterans and Military Development Committee)"
+      },
+      {
+        "date": "2026-06-09",
+        "chamber": "house",
+        "action": "Reported (House, Children and Human Services Committee)"
+      },
+      {
+        "date": "2026-11-18",
+        "chamber": "house",
+        "action": "Passed (House)"
       }
     ]
   },
@@ -7262,6 +7469,63 @@
         "date": "2026-06-10",
         "chamber": "senate",
         "action": "Concurred in House amendments (Senate)"
+      }
+    ]
+  },
+  {
+    "number": "SB218",
+    "title": "Exempt armed forces-certified child care provider from licensure",
+    "role": "cosponsor",
+    "status": "As Enrolled",
+    "status_date": "2026-11-18",
+    "committee": "Children and Human Services",
+    "chamber": "senate",
+    "last_action": "Passed (House)",
+    "last_action_date": "2026-11-18",
+    "url": "https://www.legislature.ohio.gov/legislation/136/sb218",
+    "topics": [
+      "Health and Human Services"
+    ],
+    "history": [
+      {
+        "date": "2025-06-10",
+        "chamber": "senate",
+        "action": "Introduced (Senate)"
+      },
+      {
+        "date": "2025-06-11",
+        "chamber": "senate",
+        "action": "Refer to Committee (Senate, Judiciary Committee)"
+      },
+      {
+        "date": "2026-04-21",
+        "chamber": "senate",
+        "action": "Reported (Senate, Armed Services, Veterans Affairs and Public Safety Committee)"
+      },
+      {
+        "date": "2026-05-13",
+        "chamber": "senate",
+        "action": "Passed (Senate)"
+      },
+      {
+        "date": "2026-05-19",
+        "chamber": "house",
+        "action": "Introduced (House)"
+      },
+      {
+        "date": "2026-05-20",
+        "chamber": "house",
+        "action": "Refer to Committee (House, Arts, Athletics, and Tourism Committee)"
+      },
+      {
+        "date": "2026-06-09",
+        "chamber": "house",
+        "action": "Reported (House, Children and Human Services Committee)"
+      },
+      {
+        "date": "2026-11-18",
+        "chamber": "house",
+        "action": "Passed (House)"
       }
     ]
   },

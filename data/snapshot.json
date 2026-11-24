@@ -4459,11 +4459,11 @@
     "title": "Allow driver's license or ID card to show Gold Star Family status",
     "role": "cosponsor",
     "status": "As Passed by the House",
-    "status_date": "2026-11-18",
+    "status_date": "2026-11-24",
     "committee": "Veterans and Military Development",
     "chamber": "house",
-    "last_action": "Passed (House)",
-    "last_action_date": "2026-11-18",
+    "last_action": "Introduced (Senate)",
+    "last_action_date": "2026-11-24",
     "url": "https://www.legislature.ohio.gov/legislation/136/hb632",
     "topics": [
       "Military and Veterans",
@@ -4490,6 +4490,11 @@
         "date": "2026-11-18",
         "chamber": "house",
         "action": "Passed (House)"
+      },
+      {
+        "date": "2026-11-24",
+        "chamber": "senate",
+        "action": "Introduced (Senate)"
       }
     ]
   },
@@ -4737,11 +4742,11 @@
     "title": "Regards juvenile offenders, qualification for employment",
     "role": "cosponsor",
     "status": "As Passed by the House",
-    "status_date": "2026-11-18",
+    "status_date": "2026-11-24",
     "committee": "Community Revitalization",
     "chamber": "house",
-    "last_action": "Passed (House)",
-    "last_action_date": "2026-11-18",
+    "last_action": "Introduced (Senate)",
+    "last_action_date": "2026-11-24",
     "url": "https://www.legislature.ohio.gov/legislation/136/hb701",
     "topics": [
       "Courts and Civil Law",
@@ -4768,6 +4773,11 @@
         "date": "2026-11-18",
         "chamber": "house",
         "action": "Passed (House)"
+      },
+      {
+        "date": "2026-11-24",
+        "chamber": "senate",
+        "action": "Introduced (Senate)"
       }
     ]
   },
@@ -4850,11 +4860,11 @@
     "title": "Regards PACE program site expansion",
     "role": "cosponsor",
     "status": "As Passed by the House",
-    "status_date": "2026-11-18",
+    "status_date": "2026-11-24",
     "committee": "Health",
     "chamber": "house",
-    "last_action": "Passed (House)",
-    "last_action_date": "2026-11-18",
+    "last_action": "Introduced (Senate)",
+    "last_action_date": "2026-11-24",
     "url": "https://www.legislature.ohio.gov/legislation/136/hb750",
     "topics": [
       "Health and Human Services"
@@ -4879,6 +4889,11 @@
         "date": "2026-11-18",
         "chamber": "house",
         "action": "Passed (House)"
+      },
+      {
+        "date": "2026-11-24",
+        "chamber": "senate",
+        "action": "Introduced (Senate)"
       }
     ]
   },
@@ -5566,11 +5581,11 @@
     "title": "Regards information on and advertisement of adoptable children",
     "role": "cosponsor",
     "status": "As Passed by the House",
-    "status_date": "2026-11-18",
+    "status_date": "2026-11-24",
     "committee": "Children and Human Services",
     "chamber": "house",
-    "last_action": "Passed (House)",
-    "last_action_date": "2026-11-18",
+    "last_action": "Introduced (Senate)",
+    "last_action_date": "2026-11-24",
     "url": "https://www.legislature.ohio.gov/legislation/136/hb865",
     "topics": [
       "Juvenile and Family Law"
@@ -5595,6 +5610,11 @@
         "date": "2026-11-18",
         "chamber": "house",
         "action": "Passed (House)"
+      },
+      {
+        "date": "2026-11-24",
+        "chamber": "senate",
+        "action": "Introduced (Senate)"
       }
     ]
   },
